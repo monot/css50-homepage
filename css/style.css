@@ -134,7 +134,12 @@ section.dark,
 #page-title {
   clear: both;
   padding: 80px 0;
-  background-color: #f8f9fa;
+  /* background-color: #f8f9fa; */
+  background-image: url(../images/front_image/css-blur.jpg);
+  background-repeat: no-repeat;
+  background-position: center; 
+
+
   position: relative;
   /* page header left*/
   /* page header right*/
@@ -18460,3 +18465,8 @@ body[data-bg-image] {
 }
 
 
+/* My CSS */
+.indent {
+  padding-left: 50px;
+  padding-top: 10px;
+}
