@@ -134,10 +134,16 @@ section.dark,
 #page-title {
   clear: both;
   padding: 80px 0;
-  background-color: #699bce;
+  /* background-color: #699bce; */
   /* background-image: url(../images/front_image/css-blur.jpg); */
   /* background-repeat: no-repeat; */
   /* background-size: auto; */
+
+  background: url(../images/front_image/css-blur.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
   position: relative;
   /* page header left*/
@@ -18500,4 +18506,8 @@ body[data-bg-image] {
 .indent {
   padding-left: 50px;
   padding-top: 10px;
+}
+
+.emblem {
+  max-width: 250px;
 }
