@@ -136,8 +136,6 @@ section.dark,
   padding: 80px 0;
   /* background-color: #f8f9fa; */
   background-image: url(../images/front_image/css-blur.jpg);
-  background-repeat: no-repeat;
-  background-position: center; 
 
 
   position: relative;
@@ -147,17 +145,19 @@ section.dark,
 #page-title .page-title {
   text-align: center;
   padding: 0;
+  color: white;
 }
 #page-title .page-title > h1 {
   font-family: "Poppins", sans-serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
   line-height: 1.2;
   font-weight: 400;
   margin-bottom: 1rem;
+  color: white;
 }
 #page-title .page-title > span {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
 }
 #page-title .breadcrumb {
   text-align: center;
@@ -1624,7 +1624,7 @@ Main Menu
   font-family: "Poppins", sans-serif;
   padding: 10px 12px;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   letter-spacing: 0.6px;
   color: #000000;
