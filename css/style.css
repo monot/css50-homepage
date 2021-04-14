@@ -134,9 +134,10 @@ section.dark,
 #page-title {
   clear: both;
   padding: 80px 0;
-  /* background-color: #f8f9fa; */
-  background-image: url(../images/front_image/css-blur.jpg);
-
+  background-color: #699bce;
+  /* background-image: url(../images/front_image/css-blur.jpg); */
+  /* background-repeat: no-repeat; */
+  /* background-size: auto; */
 
   position: relative;
   /* page header left*/
@@ -1589,6 +1590,19 @@ HEADER: Responsive
     margin-bottom: -80px;
   }
 }
+@media (max-width: 800px) {
+  #header .header-inner #logo a,
+  #header .header-inner #logo a span,
+  #header #header-wrap #logo a,
+  #header #header-wrap #logo a span {
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    color: #1f1f1f;
+    font-weight: 800;
+    letter-spacing: 0px;
+  }
+}
+
 /* ----------------------------------------------------------------
 Main Menu
 -----------------------------------------------------------------*/
@@ -4422,6 +4436,23 @@ h6.font-parisienne {
     margin-bottom: -80px;
   }
 }
+
+@media (max-width: 800px) {
+  .inspiro-slider .slide .slide-captions > h2 {
+    font-size: 24px !important;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 20px;
+  }
+
+  .inspiro-slider .slide .slide-captions > p {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+}
+
 /*  Portfolio */
 /* ----------------------------------------------------------------
 Portfolio
@@ -18469,8 +18500,4 @@ body[data-bg-image] {
 .indent {
   padding-left: 50px;
   padding-top: 10px;
-}
-
-.white-text {
-  color: white;
 }
