@@ -18470,3 +18470,7 @@ body[data-bg-image] {
   padding-left: 50px;
   padding-top: 10px;
 }
+
+.white-text {
+  color: white;
+}
